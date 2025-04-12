@@ -32,5 +32,3 @@ jobs:
           project: "verify-deno-flowbite"
           entrypoint: "jsr:@std/http@1.0.14/file-server"
           root: "client/dist"
-          
-          
