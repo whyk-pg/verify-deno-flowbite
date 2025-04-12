@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Button } from "flowbite-react";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,12 +16,12 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="font-bold">
-        <button
+        <Button
           type="button"
           onClick={() => setCount((count: number) => count + 1)}
         >
           count is {count}
-        </button>
+        </Button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
