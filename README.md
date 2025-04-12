@@ -9,7 +9,7 @@ DenoでViteとFlowbite Reactを使ったシンプルなアプリケーション�
 ## 本リポジトリの達成目標
 - [x] 内容をDeno公式の`react-vite-ts-template`に書き換え
 - [x] serverを削除して`@std/http/file-server`に置き換え
-- [ ] TailwindCSSを適用
+- [x] TailwindCSSを適用
 - [ ] Flowbite Reactを適用
 
 ## 参考資料
@@ -17,3 +17,4 @@ DenoでViteとFlowbite Reactを使ったシンプルなアプリケーション�
 - [Deno + Vite + Reactがサクッと動くしデプロイも簡単（2025.2） #JavaScript - Qiita](https://qiita.com/access3151fq/items/e8e8c8522842080de297)
 - [Deploy a React app with Vite](https://docs.deno.com/deploy/tutorials/vite/)
 - [Build an app with Tanstack and Deno](https://docs.deno.com/examples/tanstack_tutorial/)
+- [Use with Vite - Flowbite React](https://flowbite-react.com/docs/guides/vite)
